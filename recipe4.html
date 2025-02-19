@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My website</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            /* header */
+        header{
+        width: 100%;
+        height: 100px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        line-height: 100px;
+        margin-bottom: 20px;
+
+        }
+            /* section */
+            section {
+                background-color: #638475;
+                width: 100%;
+                height: 500px:
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+            }
+            /* aside */
+            aside {
+                width: calc(30% - 10px);
+                height: 100%;
+                background-color: #444;
+            }
+
+            aside ul {
+                list-style-type: none;
+                color: #fff;
+                text-align: center;
+            }
+            aside ul li {
+
+                margin: 20px;
+
+            }
+            /* article */
+                article {
+                    width: calc(70% - 10px);
+                    height: 100%;
+                    background-color: #7a7a7a;
+                }
+            /* nav */
+                nav {
+                    width: 100%;
+                    height: 80px;
+                    background-color: #555;
+                    text-align: center;
+                    line-height: 80px;
+                    margin-bottom: 20px;
+                }
+                nav a{
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 0 20px
+                    
+                }
+
+            /* main */
+                main {
+                    width: 100%;
+                    height: 360px;
+                    background-color: #ac4e4e;
+                }
+            /*footer */
+            footer {
+                width: 100%;
+                height: 100px;
+                background-color: #666;
+                text-align: center;
+                line-height: 100px;
+                color: #fff;
+            }
+            video{
+                position: relative;
+                top: -220px;
+                left: 300px;
+            }
+            .move-image {
+                position: absolute;
+                top: 250px;
+                left: 1100px;
+                width: 240px;
+                height: 240px;
+            }
+            </style>
+    </head>
+    <body>
+        <header>
+            <h1>Pozole Recipe</h1>
+        </header>
+        <section>
+            <aside>
+                <ol>
+                    <li>Prepare the onion, peel the garlic, chop the onion, peel and chop the 2 garlic cloves,chop the<br> green chilies and jalapenos if you are using them and get the hominy drained and rinsed.</li>
+                    <li>Boil ancho chilies in a separate small pot for the garnish step.</li>
+                    <li>Place the meat in a large saucepan and just cover with lightly salted water.</li>
+                    <li>Add 1/2 chopped onion, the 2 cloves peeled garlic, pepper, cumin, and oregano.</li>
+                    <li>Bring to a boil over medium heat, skim off any foam that rises, reduce heat, cover and simmer for 45 minutes.</li>
+                    <li>Remove meat and broth, reserving both.</li>
+                    <li>Saute the remaining chopped onion and garlic in oil until translucent.</li>
+                    <li>Add the remaining spices, stir for a minute.</li>
+                    <li>Cut the reserved pork into 1 inch cubes and add to the pan.</li>
+                    <li>Stir in the canned hominy, pork broth.</li>
+                    <li>Cook at a simmer, covered, for 45 to 60 minutes until the meat and hominy are tender.</li>
+                    <li>If necessary, cook for up to an additional 60 minutes until the chilies and onions are well blended into the broth.</li>
+                    <li>Degrease the stew, taste for salt, and serve in soup bowls.</li>
+                </ol>
+            </aside>
+             <article>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Recipe</a>
+                    <a href="#">Reference</a>
+                </nav>
+                <main>
+                     <ul>
+                        <li>1 1/2 lbs Pork Shoulder</li>
+                        <li>2 Garlic Cloves, peeled</li>
+                        <li>1 Tablespoon Cumin Powder</li>
+                        <li>1 Onion, chopped</li>
+                        <li>2 Garlic Cloves, chopped</li>
+                        <li>2 Tablespoons oil</li>
+                        <li>1/2 teaspoon black pepper</li>
+                        <li>1/2 teaspoon cayenne</li>
+                        <li>2 tablespoons California Chili Powder</li>
+                        <li>1 tablespoon salt</li>
+                        <li>1/4 Teaspoon oregano</li>
+                        <li>4 cups canned hominy, drained and rinsed</li>
+                        <li>3 cups pork broth</li>
+                    </ul>
+                    <video class="video" src="pozole.mp4" controls width="240" height="240"></video>
+                    <img src="pozole.jpg" alt="pozole" class="move-image">
+                </main>
+            </article>
+        </section>
+         <footer>
+            <p>Recipe Reference:</p>
+            <a href="https://ois.iu.edu/get-involved/education-week/worlds-fare/2020-recipe-latinos.html#:~:text=Pozole%20was%20mentioned%20in%20the,be%20consumed%20on%20special%20occasions." target="_blank">Recipe</a> |
+            <a href="https://www.food.com/recipe/authentic-mexican-pozole-196233" target="_blank">History</a>
+         </footer>
+    </body>
+    </html>
